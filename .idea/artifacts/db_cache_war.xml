@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="db-cache:war">
+    <output-path>$PROJECT_DIR$/db-cache/target</output-path>
+    <root id="archive" name="db-cache.war">
+      <element id="artifact" artifact-name="db-cache:war exploded" />
+    </root>
+  </artifact>
+</component>

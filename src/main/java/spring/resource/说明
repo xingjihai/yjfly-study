@@ -1,0 +1,27 @@
+spring资源访问利器 依赖 spring-core-4.1.3.RELEASE.jar
+
+一、spring 的Resource接口(资源抽象接口)  需要根据加载方式区分哪个实现
+
+
+Resource接口的主要方法：
+1、boolean exists() 资源是否存在
+2、boolean isOpen() 资源是否打开
+3、URL getURL()
+4、File getFile()    注意：当资源文件被打包成jar时这个方法会报无法找到,所以尽量用getInputStream()
+5、InputStream getInputStream()
+
+
+
+读取文件的三种方式：
+1、文件的绝对路径
+2、类路径
+3、web应用的根目录
+
+
+二、spring 的资源加载：spring 的ResourceLoader接口(资源加载器)   不需要区分哪个实现,都用PathMatchingResourcePatternResolver
+
+classpath:
+classpath*:
+file:
+http://
+ftp://

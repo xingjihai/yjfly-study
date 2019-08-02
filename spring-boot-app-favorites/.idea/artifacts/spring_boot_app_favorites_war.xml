@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-boot-app-favorites:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="spring-boot-app-favorites-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spring-boot-app-favorites:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/db-cache/db-cache.iml" filepath="$PROJECT_DIR$/db-cache/db-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-mybatis/db-mybatis.iml" filepath="$PROJECT_DIR$/db-mybatis/db-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-redis/db-redis.iml" filepath="$PROJECT_DIR$/db-redis/db-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-redis-spring/db-redis-spring.iml" filepath="$PROJECT_DIR$/db-redis-spring/db-redis-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-hello/spring-boot-hello.iml" filepath="$PROJECT_DIR$/spring-boot-hello/spring-boot-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yjfly-study.iml" filepath="$PROJECT_DIR$/yjfly-study.iml" />
+    </modules>
+  </component>
+</project>

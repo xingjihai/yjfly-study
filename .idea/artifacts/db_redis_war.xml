@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="db-redis:war">
+    <output-path>$PROJECT_DIR$/db-redis/target</output-path>
+    <root id="archive" name="db-redis.war">
+      <element id="artifact" artifact-name="db-redis:war exploded" />
+    </root>
+  </artifact>
+</component>
